@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 27, 71);
+}
+.container-nvbar{
+background-color:rgb(5, 5, 27) ;
+    border-bottom: solid 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.links{
+    background-color:rgb(5, 5, 27) ;
+    height: 95px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+a{
+    transition: .5s;
+}
+a:hover{
+    background-color: rgb(109, 56, 194);
+    
+}
+  a:link, a:visited, a:active {
+        text-decoration:none;
+        color: beige;
+    }
+    .container-buscador{
+        font-family: sans-serif;
+        height: 400px;
+        width: 400px;
+       
+        margin-top: 25px;
+        margin-right:5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+    }
+    .buscador{
+        margin-top:25px;
+        
+    }
+    input{
+        margin-top: 5px;
+        width: 400px;
+        height: 40px;
+        text-align: center;
+        font-family: sans-serif;
+        
+    }
+    .contenedor-padre{
+        background-color:rgb(19, 19, 44) ;
+        background-image: url(./estees.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border: solid white 2px 3px 2px 3px;
+        box-shadow: 3px gray;
+        height: 35rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        background-position: center;
+        
+
+    }
+    .contenedor-section1{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+    
+
+    }
+    
+    h2{
+        margin-top: 1rem;
+        background-color: aliceblue;
+        background-image: url(./fondo4.webp);
+        background-position: center;
+        width: 30rem;
+        height: 12rem;
+        margin-left: 0.5rem;
+        border-radius: 10px solid black;
+        box-shadow: gray 5px;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        
+    }
+    .contenido{ 
+        color:white;
+        width: 30rem;
+        height: 16rem;
+        border-style:hidden;
+        font-size:2.7rem ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        text-align:center;
+        text-shadow: 1px 1px 1px black;
+        
+    }
+    .contenedor-padre-nav{
+        background-image: url(./fondovioleoscuro.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items: flex-start;
+
+    }
+    .h2-nav{
+        border-bottom: solid 2px white;
+       width: 700px;
+       height: 70px;
+       margin-left: 5rem;
+       margin-top: 2rem;
+       font-size: 50px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color: white;
+       text-shadow: 1px 1px 1px black;
+       
+    }
+    .h3-nav{
+        margin-left: 5rem;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .p-nav{
+        margin-left: 5rem;
+        font-size:30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-top: 3rem;
+        text-shadow: 1px 1px 1px black;
+    }
+    .p2-nav{
+        margin-left: 5rem;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-top: 3rem;
+        text-shadow: 1px 1px 1px black;
+    }
+    .container-cuadro{
+        background-color: rgb(185, 150, 240);
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        width: 95%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-position: center;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 5px black;
+        border-radius: 10px;
+    }
+    .renglon-1{
+        font-size: 35px;
+        font-family:monospace;
+        color: black;
+        text-shadow: 1px 1px 1px black;
+    }
+    .renglon2{
+        font-size: 70px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration:wavy;
+        color: black;
+        text-shadow: 1px 1px 1px black;
+    }
+    .renglon3{
+        font-size:25px ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: wavy;
+        color: black;
+        text-shadow: 1px 1px 1px black;
+       
+    }
+    li{
+        list-style: none;
+    }
+    .container-section{
+        background-image: url(./espacialsection.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+
+    }
+    .div1{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 5px 10px 5px 10px;
+        
+
+    }
+    .div2{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 5px 10px 5px 10px
+    }
+    .div3{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 10px 15px 10px 15px
+    }
+    .div4{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 10px 15px 10px 15px
+    }
+    .div5{
+
+         background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 10px 15px 10px 15px
+    }
+    .div6{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin: 10px 15px 10px 15px
+    }
+.p1{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.p2{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.p3{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.p4{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.p5{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.p6{
+    color: rgb(121, 18, 218);
+    background-color: beige;
+    height: 3.5rem;
+    width: 100%;
+    font-family: comic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-shadow: 3px black;
+
+}
+.container-precio{
+    width: 400px;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 800px;
+
+
+    
+}
+.diseño{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 5px;
+    padding: 10px;
+    text-shadow: 3px solid black;
+}
+.diseñamos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 5px;
+    padding: 10px;
+    text-shadow: 3px solid black;
+}
+.ensolo{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 5px;
+    padding: 10px;
+    text-shadow: 3px solid black;
+}
+.verpre{
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-position: center;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 3px black solid;
+    font-size: 20px;
+    text-shadow: 3px solid black;
+}
